@@ -1,0 +1,53 @@
+@import url('./fonts.css');
+
+
+
+.button-def{
+    border: none;
+    color:darkgrey;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 3px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Roboto Mono', monospace;
+}
+
+.button-def:hover {
+    box-shadow: none;
+    background-color: darkgrey;
+    color: white;
+    cursor: pointer;
+}
+
+.button-accent {
+    background-color: white;
+    border: 2px solid darkgrey;
+    color: darkgrey;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 3px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Roboto Mono', monospace;
+}
+
+.button-accent:hover{
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.button-disabled{
+    border:none;
+    background-color:rgb(233, 233, 233);
+    color:rgb(182, 182, 182);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Roboto Mono', monospace;
+
+}
