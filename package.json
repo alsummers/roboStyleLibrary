@@ -1,4 +1,16 @@
 {
     "name": "@alsummers/robostyle",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "description": "Custom style library",
+    "license": "MIT",
+    "repository": "alsummers/robostyle",
+    "main": "index.js",
+    "keywords": [
+        "robot",
+        "css",
+        "style",
+        "npm",
+        "package",
+        "alsummers"
+    ]
 }
