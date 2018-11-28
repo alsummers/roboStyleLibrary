@@ -1,0 +1,41 @@
+@import url('./fonts.css');
+
+.input-def{
+    width: 10%;
+    border: none;
+    border-bottom: 2px solid darkgray;
+    padding: 1rem;
+    padding-bottom: .2rem;
+    font-family: 'Roboto Mono', monospace;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+.input-alt{
+    width: 10%;
+    border: none;
+    border-bottom: 2px solid darkgray;
+    padding: 1.5rem;
+    padding-bottom: .2rem;
+    font-family: 'Roboto Mono', monospace;
+    -webkit-transition: padding 0.4s ease-in-out;
+    transition: padding 0.4s ease-in-out;
+
+    
+}
+.input-alt:focus{
+    border: none;
+    border-bottom: 2px solid darkgray;
+    border-top: 2px solid darkgray;
+    padding: .5rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    outline: none;
+}
+.input-def:focus{
+    border: 3px solid darkgray;
+    font-size: 14px;
+    padding-bottom: 1rem;
+    width: 30%;
+    outline: none;
+
+}

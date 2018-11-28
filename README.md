@@ -9,5 +9,5 @@ Simplistic styles
 ### Install
 
 ```
-npm install @alsummer/robostyle
+npm install @alsummers/robostyle
 ```

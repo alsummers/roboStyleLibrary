@@ -1,0 +1,19 @@
+@import url('./fonts.css');
+
+.badge-def {
+    position:relative;
+}
+.badge-def[data-badge]:after {
+    content:attr(data-badge);
+    position:absolute;
+    top:-10px;
+    font-size:1em;
+    font-weight: bold;
+    background: lightgrey;
+    color: darkgrey;
+    width:18px;height:18px;
+    text-align:center;
+    line-height:18px;
+    border-radius:10%;
+    box-shadow:0 2px 1px rgba(0, 0, 0, 0.2), 0 2px 1px rgba(0, 0, 0, 0.2);
+}
