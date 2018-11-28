@@ -1,6 +1,6 @@
 {
     "name": "@alsummers/robostyle",
-    "version": "2.0.1",
+    "version": "2.1.0",
     "description": "Custom style library",
     "license": "MIT",
     "repository": "alsummers/robostyle",
@@ -12,5 +12,8 @@
         "npm",
         "package",
         "alsummers"
-    ]
+    ],
+    "devDependencies": {
+        "webpack": "^4.26.1"
+    }
 }
