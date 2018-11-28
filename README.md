@@ -11,3 +11,5 @@ Simplistic styles {{{ Testing Webpack NPM packages}}}
 ```
 npm install @alsummers/robostyle
 ```
+
+Now with webpack integration. Stay tuned...
